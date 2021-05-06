@@ -14,10 +14,11 @@ Under our project we will be using Chest X-Rays to detect whether the person is 
 We will be using a dataset consisting of Covid-19 positive patient’s chest X-rays (lungs).We will be using different parameters to achieve the best accuracy and within a reasonable time. After the completion of our first phase, which is the back-end , we will focus on developing the front-end in which we will use the Flask framework for creating the web application for our project that will be helpful for the doctors to operate easily.
 Our project will be specifically for the doctors to operate and our aim is not only to achieve the best accuracy and faster results but also the usage of this technology to remote locations which are affected by the global pandemic- covid-19.
 
+# Dataflow diagram
 ![image](https://user-images.githubusercontent.com/51341748/117271325-aeaf5700-ae77-11eb-8286-ba3502b4bc5c.png)
-
+# Inception v3 architecture
 ![image](https://user-images.githubusercontent.com/51341748/117271412-c981cb80-ae77-11eb-8696-588cdeaa857c.png)
-
+# Project screenshots
 ![image](https://user-images.githubusercontent.com/51341748/117271743-1d8cb000-ae78-11eb-8904-c50763e61ac7.png)
 
 
