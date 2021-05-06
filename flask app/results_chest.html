@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Chest X-ray Detection Results | COVID-19 Detector</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicons/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicons/site.webmanifest">
+
+    <!-- plugin scripts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700%7CBarlow:300,400,500,600,700,800,900%7CPT+Sans:400,700&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" href="assets/css/animate.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="assets/css/magnific-popup.css">
+    <link rel="stylesheet" href="assets/css/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-select.min.css">
+    <link rel="stylesheet" href="assets/css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="assets/css/bootstrap-datepicker.min.css">
+    <link rel="stylesheet" href="assets/css/vimns-icons.css">
+
+
+
+    <!-- template styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+
+
+
+
+
+
+</head>
+
+<body>
+    <div class="preloader">
+        <img src="assets/images/loader.png" class="preloader__image" alt="">
+    </div><!-- /.preloader -->
+    <div class="page-wrapper">
+
+
+
+        <header class="site-header-one">
+            <nav class="main-nav__one stricky">
+                <div class="container-fluid">
+                    <div class="main-nav__logo-box">
+                        <a href="index.html">
+                            <img width="137" src="assets/images/logo-1-1.png" alt="">
+                        </a>
+                        <a href="#" class="side-menu__toggler"><i class="fa fa-bars"></i></a>
+                    </div><!-- /.main-nav__logo-box -->
+                    <div class="main-nav__main-navigation">
+                        <ul class=" main-nav__navigation-box">
+                            <li class="dropdown">
+                                <a href="index.html">Home</a>
+                                
+                            </li>
+                            <li>
+                                <a href="prevention.html">Preventions</a>
+                            </li>
+                            <li>
+                                <a href="faqs.html">FAQs</a>
+                            </li>
+                            
+
+                            <li class="dropdown">
+                                <a href="https://news.google.com/search?q=covid">News</a>
+                            </li>
+                            
+                        </ul>
+                    </div><!-- /.main-nav__main-navigation -->
+                    <div class="main-nav__cta">
+                        <div class="main-nav__cta-icon">
+                            <i class="vimns-icon-phone"></i>
+                        </div><!-- /.main-nav__cta-icon -->
+                        <div class="main-nav__cta-content">
+                            <h3><a href="tel:666-888-0000">666 888 0000</a></h3>
+                            <p>Helpline</p>
+                        </div><!-- /.main-nav__cta-content -->
+                    </div><!-- /.main-nav__cta -->
+                    <div class="main-nav__right">
+                        <a href="upload.html" class="main-nav__btn">Detect COVID</a><!-- /.main-nav__btn -->
+                    </div><!-- /.main-nav__right -->
+                </div><!-- /.container-fluid -->
+            </nav><!-- /.main-nav__one -->
+
+        </header><!-- /.site-header-one -->
+
+
+        <section class="page-header">
+            <div class="container">
+                <h2>Chest X-ray Detection Results</h2>
+                <ul class="thm-breadcrumb list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><span>Results</span></li>
+                </ul><!-- /.thm-breadcrumb -->
+            </div><!-- /.container -->
+        </section><!-- /.page-header -->
+
+        <section class="about-three">
+            <div class="container">
+                <div class="block-title text-center">
+                    <h3 style="font-size: 70px; margin-top: -60px;">Input Image</h3>
+                </div><!-- /.block-title -->
+
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="about-three__image">
+                            <!-- <img src="assets/images/resources/about-2-1.png" alt=""> -->
+                        </div><!-- /.about-three__image -->
+                        
+                    </div><!-- /.col-lg-4 -->
+                    <div class="col-lg-8" style="padding-bottom: 40px">
+                        
+                        <img src="assets/images/upload_chest.jpg" height="320px" width="380px" style="margin-top: -20px;" alt="">   
+                        <!-- /.about-three__image -->
+                    </div><!-- /.col-lg-8 -->
+
+
+
+
+                    <div class="col-lg-1" style="padding-left: 380px;">
+                    <div class="card" style="width: 30rem;">
+                    <p class="card-title" style="text-align: center; padding-top: 10px;padding-bottom: 10px;color:white; background-color:#112559;">Inception Classification Report</p>
+                    <img class="card-img-top" src="assets/images/inception_chest_report.png" height="200px" alt="Card image cap">
+                    <br>
+                    <p class="card-title" style="text-align: center; padding-top: 10px;padding-bottom: 10px;color:white; background-color:#112559;">Inception Prediction Result</p>
+                    <div class="card-body" style="padding-top: 0px;margin-top: -20px;">
+                        <div class="about-three__title">
+                            <p style="text-align: center;color: white;font-size: 23px;">{{ inception_chest_pred }}<p>
+                        </div><!-- /.about-three__title -->
+                    </div>
+                    </div>
+                    </div><!-- Card Ends< -->
+
+
+                    
+                    
+
+
+                    
+                </div><!-- /.row -->
+                
+            </div><!-- /.container -->
+        </section><!-- /.about-three -->
+
+
+        
+
+
+
+        
+        
+
+        <footer class="site-footer-one site-footer-one__home-one">
+
+            <div class="site-footer-one__upper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="footer-widget footer-widget__about">
+                                <a href="index.html" class="footer-widget__logo">
+                                    <img width="137" src="assets/images/loader.png" alt="">
+                                </a>
+                                <p></p>
+                            </div><!-- /.footer-widget footer-widget__about -->
+                        </div><!-- /.col-lg-4 -->
+                        <div class="col-lg-3">
+                            <div class="footer-widget footer-widget__links">
+                                <h3 class="footer-widget__title">Quick Links</h3><!-- /.footer-widget__title -->
+                                <div class="footer-widget__links-wrap">
+                                    <ul class="list-unstyled footer-widget__links-list">
+                                        <li><a href="index.html">Home</a></li>
+                                        
+                                        <li><a href="prevention.html">Prevention</a></li>
+                                        <li><a href="faqs.html">FAQs</a></li>
+                                        
+                                    </ul><!-- /.list-unstyled -->
+                                    
+                                </div><!-- /.footer-widget__links-wrap -->
+
+                            </div><!-- /.footer-widget footer-widget__about -->
+                        </div><!-- /.col-lg-3 -->
+                        <div class="col-lg-3">
+                            <div class="footer-widget footer-widget__contact">
+                                <h3 class="footer-widget__title">Contact</h3><!-- /.footer-widget__title -->
+                                <p><a >+91-8888888888</a></p>
+                                <p><a >group32@gmail.com</a> </p>
+                                <p>NMIMS, <br> Mumbai</p>
+                            </div><!-- /.footer-widget footer-widget__contact -->
+                        </div><!-- /.col-lg-3 -->
+                        
+                    </div><!-- /.row -->
+                </div><!-- /.container -->
+            </div><!-- /.site-footer-one__upper -->
+            <div class="site-footer-one__bottom">
+                <div class="container">
+                    <p>© copyright 2021 by <a>group32</a></p>
+                </div><!-- /.container -->
+            </div><!-- /.site-footer-one__bottom -->
+        </footer><!-- /.site-footer-one -->
+    </div><!-- /.page-wrapper -->
+
+
+    <a href="#" data-target="html" class="scroll-to-target scroll-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    
+
+
+
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/waypoints.min.js"></script>
+    <script src="assets/js/jquery.counterup.min.js"></script>
+    <script src="assets/js/TweenMax.min.js"></script>
+    <script src="assets/js/wow.js"></script>
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="assets/js/jquery.ajaxchimp.min.js"></script>
+    <script src="assets/js/jquery.validate.min.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+    <script src="assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="assets/js/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/isotope.js"></script>
+
+    <!-- template scripts -->
+    <script src="assets/js/theme.js"></script>
+    <script src="assets/js/testimonials-owl.carousel.config.js"></script>
+</body>
+
+</html>
