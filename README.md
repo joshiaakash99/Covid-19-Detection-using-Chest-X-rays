@@ -37,7 +37,6 @@ Our project will be specifically for the doctors to operate and our aim is not o
 
 ![image](https://user-images.githubusercontent.com/51341748/117271888-44e37d00-ae78-11eb-9de1-319b5201ffb9.png)
 
-![image](https://user-images.githubusercontent.com/51341748/117271907-47de6d80-ae78-11eb-9761-c52108eb2b42.png)
 
 ![image](https://user-images.githubusercontent.com/51341748/117271936-4f9e1200-ae78-11eb-8321-3240a2eb6cea.png)
 
